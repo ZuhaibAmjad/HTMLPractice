@@ -4,6 +4,8 @@
     </head>
     <body>
         <form action="" method="">
+            <fieldset>
+                <legend>Enter Personal Details</legend>
 <label>Name</label> <input type="text" name="ali" value="" placeholder="Enter Your Nmae"/> <br/> <br/>
 
 <label>Password</label> <input type="password" name="" placeholder="Enter Your Password"/> <br/> <br/>
@@ -12,14 +14,39 @@
 
 <label>Hobbies</label> <input type="checkbox" name="hobby" id="football"/> <label for="football">football</label> <input type="checkbox" name="hooby" id="music"/> <label for="music">music</label> <br/> <br/>
 
-<label>Message</label> <textarea placeholder="Enter Message"></textarea> 
+<label>Message</label> <textarea placeholder="Enter Message"></textarea> <br/> <br/>
 
-<label>Country</label> <select>
-                           <option>Pakistan</option>
-                           <option>India</option>
-                           <option>SriLanka</option>
+<label>Country</label> <select name="" size="2" multiple="">
+                           <option value="pk" selected>Pakistan</option>
+                           <option value="in">India</option>
+                           <option value="sr">SriLanka</option>
                        </select>
+                       <br/> <br/>
+              <label>Cars</label> <select>
+                                    <optgroup label="Toyota">
+                                        <option>abc</option>
+                                        <option>xyz</option>
+                                        <option>asd</option>
+                                    </optgroup>
+  
+                        
+                                
+                                    <optgroup label="XYZ">
+                                        <option>abc</option>
+                                        <option>xyz</option>
+                                        <option>asd</option>
+                                    </optgroup>
+                                </select>      
+                                <br/> <br/>
+                   <label>upload file</label> <input type="file" accept="img/*" name="/*" />
+                   <br/> <br/>
+                   <input type="submit" value="save" />
 
+                   <input type="reset" />
+
+                   <input type="image" src="images/img1.avif" width="2%" alt="submit button" />
+                </fieldset>                     
+            
 </form>
     </body>
 </html>
